@@ -1,0 +1,47 @@
+body {
+    background-color: #202020;
+    color: #fff;
+
+}
+
+ul {
+    color: aliceblue;
+    list-style: none;
+}
+
+li:before {
+    content: ' ';
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+ul,ol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    margin: 0 auto;
+    max-width: 1000px;
+    border: 10px solid red;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px 10px rgba(50,50,50,0.5);
+}
+.class {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: darksalmon;
+    max-width: 520px;
+    height: 320px;
+}
